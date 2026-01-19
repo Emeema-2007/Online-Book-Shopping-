@@ -1,0 +1,12 @@
+# Node / Vite
+node_modules/
+.vite/
+dist/
+build/
+
+# Env files
+.env
+
+# OS
+.DS_Store
+Thumbs.db
