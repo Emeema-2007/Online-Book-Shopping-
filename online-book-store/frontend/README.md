@@ -1,16 +1,91 @@
-# React + Vite
+# Online Book Shopping Platform 📚
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Description
 
-Currently, two official plugins are available:
+The **Online Book Shopping Platform** is a web-based application that allows users to browse books, search and filter them, add books to a cart, and proceed with checkout.
+This project is built to simulate a real-world online bookstore.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* View list of available books
+* Search books by name or category
+* Filter books by price and rating
+* Add books to cart
+* View cart and total price
+* Simple checkout / payment UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+### Frontend
+
+* React.js
+* Vite
+* HTML
+* CSS
+* JavaScript
+
+### Backend
+
+* Node.js
+* Express.js
+* MongoDB
+
+---
+
+## 📂 Project Structure
+
+```
+OnlineBookStore/
+│
+├── online-book-store/
+│   ├── frontend/      # React + Vite frontend
+│   └── backend/       # Node.js backend
+│
+├── .gitignore
+└── README.md
+```
+
+---
+
+## ⚙️ How to Run the Project
+
+### Frontend
+
+```bash
+cd online-book-store/frontend
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd online-book-store/backend
+npm install
+npm start
+```
+
+---
+
+## 🎯 Purpose of the Project
+
+* Practice full-stack web development
+* Learn React with Vite
+* Understand frontend–backend integration
+* Implement real-world shopping features
+
+---
+
+## 👩‍💻 Author
+
+**Emeema**
+
+---
+
+## 📌 Note
+
+This project is created for learning and academic purposes.
